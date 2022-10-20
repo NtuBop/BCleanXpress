@@ -1,0 +1,482 @@
+<!-- <section class="pagination" id="pagination">
+    <div class="container">
+        <div class="row">
+            <ul class="pagination pagination-lg">
+                <li class="page-item active" aria-current="page">
+                  <span class="page-link">1</span>
+                </li>
+                <li class="page-item"><a class="page-link" href="#">2</a></li>
+                <li class="page-item"><a class="page-link" href="#">3</a></li>
+              </ul>
+        </div>
+    </div>
+</section> -->
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>BCleanExpress</title>
+  <!-- Favicon-->
+  <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+  <!-- Font Awesome icons (free version)-->
+  <!-- <script src="https://use.fontawesome.com/releases/v6.1.0/js/all.js" crossorigin="anonymous"></script> -->
+  <script src="https://kit.fontawesome.com/45ec6939a1.js" crossorigin="anonymous"></script>
+  <!-- Google fonts-->
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css" />
+  <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700" rel="stylesheet" type="text/css" />
+  <!-- Core theme CSS (includes Bootstrap)-->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+    crossorigin="anonymous"></script>
+
+  <link href="css/styles.css" rel="stylesheet" />
+</head>
+
+<body>
+  <!-- <nav class="my-4">
+    <ul class="pagination justify-content-center">
+      <li class="page-item active"><a class="page-link"href="">Property Type</a></li>
+      <li class="page-item"><a class="page-link"href="">Number of Bedrooms</a></li>
+      <li class="page-item"><a class="page-link"href="">Property Size</a></li>
+      <li class="page-item"><a class="page-link"href="">Contact Details</a></li>
+    </ul>
+  </nav> -->
+
+  <div class="widget-row with-centered-content">
+    <div class="widget 
+formWidget quizWidget col20 widgetResponsive" id="quiz-widget-1658223552474" data-type="QuizWidget" data-delay=""
+      data-animation-duration="" data-animation-delay="" data-animation="lazyAnimation-"
+      style="margin-top: 0%; margin-left: 0px;">
+      <div class="widget-form widget-form-dark form-left" data-pass-values="" style="box-sizing: border-box; 
+background-color: rgba(247, 248, 252, 1);
+padding: 50px;">
+
+        <div class="widget-form-inner-wrapper">
+          <input type="hidden" class="none" name="formid"
+            value="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">
+          <script>
+            WebPlatform.onReady(function () {
+              WebPlatform.Widgets.Quiz({
+                container: $('#quiz-widget-1658223552474')
+              });
+            });
+          </script>
+          <style type="text/css">
+            #quiz-widget-1658223552474 .select-wrapper.quiz-select-wrapper ul li a,
+            #quiz-widget-1658223552474 .nps-wrapper ul li a {
+              border-color: #eeeeee;
+              background-color: rgba(255, 255, 255, 1);
+              color: rgba(0, 0, 0, 1);
+              font-family: 'Open Sans';
+            }
+
+            #quiz-widget-1658223552474 .select-wrapper.quiz-select-wrapper ul li a .option-title,
+            #quiz-widget-1658223552474 .nps-wrapper ul li a .option-title {
+              font-size: 18px;
+            }
+
+            #quiz-widget-1658223552474 .select-wrapper.quiz-select-wrapper ul li a .option-desc,
+            #quiz-widget-1658223552474 .nps-wrapper ul li a .option-desc {
+              font-size: 14px;
+
+              font-family: 'Open Sans';
+
+            }
+
+            #quiz-widget-1658223552474 .select-wrapper.quiz-select-wrapper ul li a:hover,
+            #quiz-widget-1658223552474 .select-wrapper.quiz-select-wrapper ul li a.active,
+            #quiz-widget-1658223552474 .nps-wrapper ul li a:hover,
+            #quiz-widget-1658223552474 .nps-wrapper ul li a.active,
+            #quiz-widget-1658223552474 .select-wrapper.multi-choice ul li a.active:before,
+            #quiz-widget-1658223552474 .select-wrapper ul li a.active:before {
+              border-color: rgba(0, 143, 222, 1);
+            }
+
+            #quiz-widget-1658223552474 .form-progress-wrapper .form-progress-bar .success-bar,
+            #quiz-widget-1658223552474 .steps-nav-wrapper a.active:after,
+            #quiz-widget-1658223552474 .select-wrapper.multi-choice ul li a.active:before,
+            #quiz-widget-1658223552474 .select-wrapper.style-1.with-image ul li a.active:before,
+            #quiz-widget-1658223552474 .select-wrapper ul li a.active:before {
+              background-color: rgba(0, 143, 222, 1);
+            }
+
+
+
+            #quiz-widget-1658223552474 .next-button.hvr-sweep-to-right:before,
+            #quiz-widget-1658223552474 .next-button.hvr-fade:hover,
+            #quiz-widget-1658223552474 .next-button.hvr-fade:focus,
+            #quiz-widget-1658223552474 .next-button.hvr-fade:active,
+            #quiz-widget-1658223552474 .next-button.hvr-rectangle-out:before {
+              background: rgba(15, 34, 126, 1) !important;
+              border-color: rgba(15, 34, 126, 1) !important;
+            }
+
+            #quiz-widget-1658223552474 .next-button.hvr-sweep-to-right:hover,
+            #quiz-widget-1658223552474 .next-button.hvr-sweep-to-right:focus,
+            #quiz-widget-1658223552474 .next-button.hvr-sweep-to-right:active,
+            #quiz-widget-1658223552474 .next-button.hvr-fade:hover,
+            #quiz-widget-1658223552474 .next-button.hvr-fade:focus,
+            #quiz-widget-1658223552474 .next-button.hvr-fade:active,
+            #quiz-widget-1658223552474 .next-button.hvr-rectangle-out:hover,
+            #quiz-widget-1658223552474 .next-button.hvr-rectangle-out:focus,
+            #quiz-widget-1658223552474 .next-button.hvr-rectangle-out:active {
+              color: #ffffff !important;
+            }
+          </style>
+
+          <div class="form-progress-wrapper">
+            <div class="steps-nav-wrapper">
+              <a class="active" style="
+   color: rgba(49, 49, 49, 1);">Property Type</a>
+              <a class="" style="
+   color: rgba(49, 49, 49, 1);">Number of Bedrooms</a>
+              <a class="" style="
+   color: rgba(49, 49, 49, 1);">Property Size</a>
+              <a class="" style="
+   color: rgba(49, 49, 49, 1);">Contact Details</a>
+            </div>
+          </div>
+          <div class="col20 f-left visited-step" data-role="quiz-step" data-id="0.009421599811420434" data-idx="0">
+            <h2 class="col20 f-left 
+     t-center step-heading" style="
+   color: rgba(49, 49, 49, 1);margin-bottom: 40px;
+      font-family: 'Open Sans';
+      font-weight: bold;
+      font-size: 30px">
+              Property Type</h2>
+            <div class="form-field" data-type="radio">
+              <span class="title  title-empty  " style="
+   color:#444444;
+   font-size:14px;
+   font-family:Open Sans;">
+              </span>
+              <span class="field-error">Required field!</span>
+              <div class="select-wrapper quiz-select-wrapper split-2 style-3  with-image with-shadow">
+                <ul>
+                  <li>
+                    <a>
+                      <input type="radio" class="none" name="field0-0" data-name="" aria-label=""
+                        value="Free Standing Home" data-score="0" data-skip="">
+                      <div>
+                        <span class="option-title">Free Standing Home</span>
+                      </div>
+                    </a>
+                  </li>
+                  <li>
+                    <a class="active">
+                      <input type="radio" class="none" name="field0-0" data-name="" aria-label="" value="Apartment "
+                        data-score="0" data-skip="">
+                      <div>
+                        <span class="option-title">Apartment </span>
+                      </div>
+                    </a>
+                  </li>
+                  <li>
+                    <a>
+                      <input type="radio" class="none" name="field0-0" data-name="" aria-label="" value="Other"
+                        data-score="0" data-skip="">
+                      <div>
+                        <span class="option-title">Other</span>
+                      </div>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="col20 f-left quiz-buttons-wrapper flex flex-row align-center">
+              <div class="flex-1">
+              </div>
+              <div class="flex-none">
+              </div>
+              <div class="flex-1">&nbsp;</div>
+            </div>
+          </div>
+          <div class="col20 f-left none-soft" data-role="quiz-step" data-id="0.2276109065450196" data-idx="1">
+            <h2 class="col20 f-left 
+     t-center step-heading" style="
+   color: rgba(49, 49, 49, 1);margin-bottom: 40px;
+      font-family: 'Open Sans';
+      font-weight: bold;
+      font-size: 30px">
+              Number of Bedrooms</h2>
+            <div class="form-field" data-type="radio">
+              <span class="title  title-empty  " style="
+   color:#444444;
+   font-size:14px;
+   font-family:Open Sans;">
+              </span>
+              <span class="field-error">Required field!</span>
+              <div class="select-wrapper quiz-select-wrapper split-2 style-3  with-image with-shadow">
+                <ul>
+                  <li>
+                    <a>
+                      <input type="radio" class="none" name="field1-0" data-name="" aria-label="" value="1 Bedroom"
+                        data-score="0" data-skip="">
+                      <div>
+                        <span class="option-title">1 Bedroom</span>
+                      </div>
+                    </a>
+                  </li>
+                  <li>
+                    <a class="active">
+                      <input type="radio" class="none" name="field1-0" data-name="" aria-label="" value="2 Bedrooms"
+                        data-score="0" data-skip="">
+                      <div>
+                        <span class="option-title">2 Bedrooms</span>
+                      </div>
+                    </a>
+                  </li>
+                  <li>
+                    <a>
+                      <input type="radio" class="none" name="field1-0" data-name="" aria-label="" value="3 Bedrooms"
+                        data-score="0" data-skip="">
+                      <div>
+                        <span class="option-title">3 Bedrooms</span>
+                      </div>
+                    </a>
+                  </li>
+                  <li>
+                    <a>
+                      <input type="radio" class="none" name="field1-0" data-name="" aria-label="" value="4+ Bedrooms"
+                        data-score="0" data-skip="">
+                      <div>
+                        <span class="option-title">4+ Bedrooms</span>
+                      </div>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="col20 f-left quiz-buttons-wrapper flex flex-row align-center">
+              <div class="flex-1">
+                <a class="prev-button" data-role="back" style="font-family:'Open Sans';">
+                  <span class="button-arrow">←</span><span class="cta-text">Previous Step</span>
+                </a>
+              </div>
+              <div class="flex-none">
+              </div>
+              <div class="flex-1">&nbsp;</div>
+            </div>
+          </div>
+          <div class="col20 f-left none-soft" data-role="quiz-step" data-id="0.7587711068450802" data-idx="2">
+            <h2 class="col20 f-left 
+     t-center step-heading" style="
+   color: rgba(49, 49, 49, 1);margin-bottom: 40px;
+      font-family: 'Open Sans';
+      font-weight: bold;
+      font-size: 30px">
+              Property Size</h2>
+            <div class="form-field  required-field" data-type="radio">
+              <span class="title  title-empty  " style="
+   color:#444444;
+   font-size:14px;
+   font-family:Open Sans;">
+              </span>
+              <span class="field-error">Required field!</span>
+              <div class="select-wrapper quiz-select-wrapper split-2 style-3  with-image with-shadow">
+                <ul>
+                  <li>
+                    <a>
+                      <input type="radio" class="none" name="field2-0" data-name="" aria-label=""
+                        value="0 - 50 square meters" data-score="0" data-skip="">
+                      <div>
+                        <span class="option-title">0 - 50 square meters</span>
+                      </div>
+                    </a>
+                  </li>
+                  <li>
+                    <a>
+                      <input type="radio" class="none" name="field2-0" data-name="" aria-label=""
+                        value="50 - 85 square meters" data-score="0" data-skip="">
+                      <div>
+                        <span class="option-title">50 - 85 square meters</span>
+                      </div>
+                    </a>
+                  </li>
+                  <li>
+                    <a>
+                      <input type="radio" class="none" name="field2-0" data-name="" aria-label=""
+                        value="85 - 100 square meters" data-score="0" data-skip="">
+                      <div>
+                        <span class="option-title">85 - 100 square meters</span>
+                      </div>
+                    </a>
+                  </li>
+                  <li>
+                    <a class="active">
+                      <input type="radio" class="none" name="field2-0" data-name="" aria-label=""
+                        value="100 - 200 square meters" data-score="0" data-skip="">
+                      <div>
+                        <span class="option-title">100 - 200 square meters</span>
+                      </div>
+                    </a>
+                  </li>
+                  <li>
+                    <a>
+                      <input type="radio" class="none" name="field2-0" data-name="" aria-label=""
+                        value="+/- 300 square meters" data-score="0" data-skip="">
+                      <div>
+                        <span class="option-title">+/- 300 square meters</span>
+                      </div>
+                    </a>
+                  </li>
+                  <li>
+                    <a>
+                      <input type="radio" class="none" name="field2-0" data-name="" aria-label=""
+                        value="+/- 500 square meters" data-score="0" data-skip="">
+                      <div>
+                        <span class="option-title">+/- 500 square meters</span>
+                      </div>
+                    </a>
+                  </li>
+                  <li>
+                    <a>
+                      <input type="radio" class="none" name="field2-0" data-name="" aria-label="" value="I'm not sure"
+                        data-score="0" data-skip="">
+                      <div>
+                        <span class="option-title">I'm not sure</span>
+                      </div>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="col20 f-left quiz-buttons-wrapper flex flex-row align-center">
+              <div class="flex-1">
+                <a class="prev-button" data-role="back" style="font-family:'Open Sans';">
+                  <span class="button-arrow">←</span><span class="cta-text">Previous Step</span>
+                </a>
+              </div>
+              <div class="flex-none">
+              </div>
+              <div class="flex-1">&nbsp;</div>
+            </div>
+          </div>
+          <div class="col20 f-left none-soft" data-role="quiz-step" data-id="1" data-idx="3">
+            <h2 class="col20 f-left 
+     t-center step-heading" style="
+   color: rgba(49, 49, 49, 1);
+      font-family: 'Open Sans';
+      font-weight: bold;
+      font-size: 30px">
+              Contact Details</h2>
+            <h4 class="col20 f-left quiz-step-description 
+     t-center step-subheading" style="
+   color: rgba(0, 0, 0, 1); font-family: 'Open Sans'; 
+      font-size: 17px">
+              How can we contact you ?</h4>
+            <div class="form-field  half-field required-field half-field-first" data-type="text">
+              <span class="title  " style="
+   color:#444444;
+   font-size:14px;
+   font-family:Open Sans;">
+                Name<span class="required">*</span></span>
+              <span class="field-error">Required field!</span>
+              <input class=" 
+    
+    " style="
+   color:#666666;
+   font-family:Open Sans;
+   border-radius: 0px;
+   background-color: #ffffff;
+   border-color: #e1e1e1;" data-name="Name" aria-label="Name" type="text" data-type="text" name="field3-0"
+                placeholder="">
+            </div>
+            <div class="form-field  half-field required-field" data-type="text">
+              <span class="title  " style="
+   color:#444444;
+   font-size:14px;
+   font-family:Open Sans;">
+                Email<span class="required">*</span></span>
+              <span class="field-error">Required field!</span>
+              <input class=" 
+    
+    " style="
+   color:#666666;
+   font-family:Open Sans;
+   border-radius: 0px;
+   background-color: #ffffff;
+   border-color: #e1e1e1;" data-name="Email" aria-label="Email" type="text" data-type="email" name="field3-1"
+                placeholder="">
+            </div>
+            <div class="form-field  required-field" data-type="text">
+              <span class="title  " style="
+   color:#444444;
+   font-size:14px;
+   font-family:Open Sans;">
+                Phone<span class="required">*</span></span>
+              <span class="field-error">Required field!</span>
+              <input class=" 
+    
+    " style="
+   color:#666666;
+   font-family:Open Sans;
+   border-radius: 0px;
+   background-color: #ffffff;
+   border-color: #e1e1e1;" data-name="Phone" aria-label="Phone" type="text" data-type="text" name="field3-2"
+                placeholder="">
+            </div>
+            <div class="form-field  required-field" data-type="text">
+              <span class="title  " style="
+   color:#444444;
+   font-size:14px;
+   font-family:Open Sans;">
+                Address<span class="required">*</span></span>
+              <span class="field-error">Required field!</span>
+              <input class=" 
+    
+    " style="
+   color:#666666;
+   font-family:Open Sans;
+   border-radius: 0px;
+   background-color: #ffffff;
+   border-color: #e1e1e1;" data-name="Address" aria-label="Address" type="text" data-type="text" name="field3-3"
+                placeholder="">
+            </div>
+            <div class="col20 f-left quiz-buttons-wrapper flex flex-row align-center">
+              <div class="flex-1">
+                <a class="prev-button" data-role="back" style="font-family:'Open Sans';">
+                  <span class="button-arrow">←</span><span class="cta-text">Previous Step</span>
+                </a>
+              </div>
+              <div class="flex-none">
+                <a data-role="submit" class="theme-button next-button hvr-sweep-to-right   " style="
+         font-size: 14px;background-color: rgba(0, 18, 103, 1);border-color: #000000;color:#ffffff;font-family:'Open Sans';letter-spacing:0px;border-width: 4px;
+         padding: 20px 40px;
+         border-radius: 0px;">
+                  <span class="cta-text">Submit</span>
+                  <span class="button-arrow">→</span>
+                </a>
+              </div>
+              <div class="flex-1">&nbsp;</div>
+            </div>
+          </div>
+          <div class="booking-name none" data-role="thank-you-message">
+            <svg class="checkbox" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
+              viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;" xml:space="preserve">
+              <path d="M504.502,75.496c-9.997-9.998-26.205-9.998-36.204,0L161.594,382.203L43.702,264.311c-9.997-9.998-26.205-9.997-36.204,0
+    c-9.998,9.997-9.998,26.205,0,36.203l135.994,135.992c9.994,9.997,26.214,9.99,36.204,0L504.502,111.7
+    C514.5,101.703,514.499,85.494,504.502,75.496z"></path>
+            </svg>
+            <h2 class="t-center confirmation-title none" data-role="title"></h2>
+            <span class="confirmation-description t-center none" data-role="description"></span>
+            <div class="col20 f-left t-center flex align-center justify-center flex-col buttons-wrapper none"
+              data-role="cta">
+              <a data-role="cta-link" class="call-to-action next-button button hvr-sweep-to-right   " style="
+   background-color: rgba(0, 18, 103, 1);border-color: #000000;color:#ffffff;font-family:'Open Sans';letter-spacing:0px;border-width: 4px;
+   padding: 20px 40px;
+   border-radius: 0px;"><span class="cta-text" data-role="cta-text"></span></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
