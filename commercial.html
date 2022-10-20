@@ -23,7 +23,7 @@
 <body id="page-top">
     <!-- Navigation -->
 
-    <nav class="navbar navbar-expand-lg navbar-dark bg-secondary fixed-top" id="mainNav">
+    <nav class="navbar navbar-expand-lg fixed-top" id="mainNav">
         <div class="container">
             <a href="index.html" class="navbar-brand">BCleanExpress</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive"
@@ -47,9 +47,11 @@
     <header class="masthead-commercial">
         <div class="container ">
             <!-- <div class="masthead-subheading"></div> -->
-            <div class="masthead-heading text-uppercase"><h1>Commercial Cleaning Service</h1>
-            <a class="btn btn-outline-light btn-lg m-2" href="#request_quote" role="button" rel="nofollow" target="_self">Request A Free Quote</a>
-        </div>
+            <div class="masthead-heading text-uppercase">
+                <h1>Commercial Cleaning Service</h1>
+                <a class="btn btn-outline-light btn-lg m-2" href="#contactForm" role="button" rel="nofollow"
+                    target="_self">Request A Free Quote</a>
+            </div>
     </header>
 
     <!-- Our Services -->
@@ -71,7 +73,7 @@
                         </a>
                         <div class="portfolio-caption">
                             <div class="portfolio-caption-heading">Office</div>
-                            <div class="portfolio-caption-subheading text-muted">Office</div>
+                            <a class="portfolio-quote" href="#contactForm">Request Free Quote</a>
                         </div>
                     </div>
                 </div>
@@ -86,7 +88,7 @@
                         </a>
                         <div class="portfolio-caption">
                             <div class="portfolio-caption-heading">Sectional Title</div>
-                            <div class="portfolio-caption-subheading text-muted">Sectional Title</div>
+                            <a class="portfolio-quote" href="#contactForm">Request Free Quote</a>
                         </div>
                     </div>
                 </div>
@@ -101,7 +103,7 @@
                         </a>
                         <div class="portfolio-caption">
                             <div class="portfolio-caption-heading">Restuarant & Kitchen</div>
-                            <div class="portfolio-caption-subheading text-muted">Restuarant & Kitchen</div>
+                            <a class="portfolio-quote" href="#contactForm">Request Free Quote</a>
                         </div>
                     </div>
                 </div>
@@ -116,7 +118,7 @@
                         </a>
                         <div class="portfolio-caption">
                             <div class="portfolio-caption-heading">Retail & Commercial</div>
-                            <div class="portfolio-caption-subheading text-muted">Retail & Commercial</div>
+                            <a class="portfolio-quote" href="#contactForm">Request Free Quote</a>
                         </div>
                     </div>
                 </div>
@@ -131,7 +133,7 @@
                         </a>
                         <div class="portfolio-caption">
                             <div class="portfolio-caption-heading">Warehouse & Industrial</div>
-                            <div class="portfolio-caption-subheading text-muted">Warehouse & Industrial</div>
+                            <a class="portfolio-quote" href="#contactForm">Request Free Quote</a>
                         </div>
                     </div>
                 </div>
@@ -146,7 +148,7 @@
                         </a>
                         <div class="portfolio-caption">
                             <div class="portfolio-caption-heading">Post Construction</div>
-                            <div class="portfolio-caption-subheading text-muted">Post Construction</div>
+                            <a class="portfolio-quote" href="#contactForm">Request Free Quote</a>
                         </div>
                     </div>
                 </div>
@@ -155,274 +157,351 @@
     </section>
 
     <!-- Portfolio Modals-->
-        <!-- Portfolio item 1 modal popup-->
-        <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
-            <div class="modal-dialog">
-                <div class="modal-content">
-                    <div class="close-modal" data-bs-dismiss="modal"><img src="assets/img/close-icon.svg" alt="Close modal" /></div>
-                    <div class="container">
-                        <div class="row justify-content-center">
-                            <div class="col-lg-8">
-                                <div class="modal-body">
-                                    <!-- Project details-->
-                                    <h2>Office Cleaning Services</h2>
-                                    <p class="item-intro text-muted">Office Cleaning Services</p>
-                                    <img class="img-fluid d-block mx-auto" src="assets/img/commercial/office.jpg" alt="..." />
-                                    <p>Cleaning and hygiene maintenance services for office spaces</p>
-                                    <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal" type="button">
-                                        <i class="fas fa-xmark me-1"></i>
-                                        Close
-                                    </button>
-                                </div>
+    <!-- Portfolio item 1 modal popup-->
+    <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="close-modal" data-bs-dismiss="modal"><img src="assets/img/close-icon.svg"
+                        alt="Close modal" /></div>
+                <div class="container">
+                    <div class="row justify-content-center">
+                        <div class="col-lg-8">
+                            <div class="modal-body">
+                                <!-- Project details-->
+                                <h2>Office Cleaning Services</h2>
+                                <p class="item-intro text-muted">Office Cleaning Services</p>
+                                <img class="img-fluid d-block mx-auto" src="assets/img/commercial/office.jpg"
+                                    alt="..." />
+                                <p>Cleaning and hygiene maintenance services for office spaces</p>
+                                <!-- <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal"
+                                    type="button">
+                                    <i class="fas fa-xmark me-1"></i>
+                                    Close
+                                </button> -->
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-        <!-- Portfolio item 2 modal popup-->
-        <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-hidden="true">
-            <div class="modal-dialog">
-                <div class="modal-content">
-                    <div class="close-modal" data-bs-dismiss="modal"><img src="assets/img/close-icon.svg" alt="Close modal" /></div>
-                    <div class="container">
-                        <div class="row justify-content-center">
-                            <div class="col-lg-8">
-                                <div class="modal-body">
-                                    <!-- Project details-->
-                                    <h2>Sectional Title Cleaning Services</h2>
-                                    <p class="item-intro text-muted">Sectional Title Cleaning Services</p>
-                                    <img class="img-fluid d-block mx-auto" src="assets/img/commercial/sectional-title.jpg" alt="..." />
-                                    <p>Cleaning and maintenance services for apartment blocks</p>
-                                    <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal" type="button">
-                                        <i class="fas fa-xmark me-1"></i>
-                                        Request Free Quote
-                                    </button>
-                                </div>
+    </div>
+    <!-- Portfolio item 2 modal popup-->
+    <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="close-modal" data-bs-dismiss="modal"><img src="assets/img/close-icon.svg"
+                        alt="Close modal" /></div>
+                <div class="container">
+                    <div class="row justify-content-center">
+                        <div class="col-lg-8">
+                            <div class="modal-body">
+                                <!-- Project details-->
+                                <h2>Sectional Title Cleaning Services</h2>
+                                <p class="item-intro text-muted">Sectional Title Cleaning Services</p>
+                                <img class="img-fluid d-block mx-auto" src="assets/img/commercial/sectional-title.jpg"
+                                    alt="..." />
+                                <p>Cleaning and maintenance services for apartment blocks</p>
+                                <!-- <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal"
+                                    type="button">
+                                    <i class="fas fa-xmark me-1"></i>
+                                    Request Free Quote
+                                </button> -->
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-        <!-- Portfolio item 3 modal popup-->
-        <div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" role="dialog" aria-hidden="true">
-            <div class="modal-dialog">
-                <div class="modal-content">
-                    <div class="close-modal" data-bs-dismiss="modal"><img src="assets/img/close-icon.svg" alt="Close modal" /></div>
-                    <div class="container">
-                        <div class="row justify-content-center">
-                            <div class="col-lg-8">
-                                <div class="modal-body">
-                                    <!-- Project details-->
-                                    <h2>Restuarant & Kitchen</h2>
-                                    <p class="item-intro text-muted">Restuarant & Kitchen</p>
-                                    <img class="img-fluid d-block mx-auto" src="assets/img/commercial/restuarant.jpg" alt="..." />
-                                    <p>Cleaning and degreasing services for restaurants and food outlets.</p>
-                                    <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal" type="button">
-                                        <i class="fas fa-xmark me-1"></i>
-                                        Request Free Quote
-                                    </button>
-                                </div>
+    </div>
+    <!-- Portfolio item 3 modal popup-->
+    <div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="close-modal" data-bs-dismiss="modal"><img src="assets/img/close-icon.svg"
+                        alt="Close modal" /></div>
+                <div class="container">
+                    <div class="row justify-content-center">
+                        <div class="col-lg-8">
+                            <div class="modal-body">
+                                <!-- Project details-->
+                                <h2>Restuarant & Kitchen</h2>
+                                <p class="item-intro text-muted">Restuarant & Kitchen</p>
+                                <img class="img-fluid d-block mx-auto" src="assets/img/commercial/restuarant.jpg"
+                                    alt="..." />
+                                <p>Cleaning and degreasing services for restaurants and food outlets.</p>
+                                <!-- <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal"
+                                    type="button">
+                                    <i class="fas fa-xmark me-1"></i>
+                                    Request Free Quote
+                                </button> -->
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-        <!-- Portfolio item 4 modal popup-->
-        <div class="portfolio-modal modal fade" id="portfolioModal4" tabindex="-1" role="dialog" aria-hidden="true">
-            <div class="modal-dialog">
-                <div class="modal-content">
-                    <div class="close-modal" data-bs-dismiss="modal"><img src="assets/img/close-icon.svg" alt="Close modal" /></div>
-                    <div class="container">
-                        <div class="row justify-content-center">
-                            <div class="col-lg-8">
-                                <div class="modal-body">
-                                    <!-- Project details-->
-                                    <h2>Retail & Commercial</h2>
-                                    <p class="item-intro text-muted">Retail & Commercial</p>
-                                    <img class="img-fluid d-block mx-auto" src="assets/img/commercial/retail-commercial.jpg" alt="..." />
-                                    <p>Tailor made cleaning service for retail premises.</p>
-                                    <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal" type="button">
-                                        <i class="fas fa-xmark me-1"></i>
-                                        Request Free Quote
-                                    </button>
-                                </div>
+    </div>
+    <!-- Portfolio item 4 modal popup-->
+    <div class="portfolio-modal modal fade" id="portfolioModal4" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="close-modal" data-bs-dismiss="modal"><img src="assets/img/close-icon.svg"
+                        alt="Close modal" /></div>
+                <div class="container">
+                    <div class="row justify-content-center">
+                        <div class="col-lg-8">
+                            <div class="modal-body">
+                                <!-- Project details-->
+                                <h2>Retail & Commercial</h2>
+                                <p class="item-intro text-muted">Retail & Commercial</p>
+                                <img class="img-fluid d-block mx-auto" src="assets/img/commercial/retail-commercial.jpg"
+                                    alt="..." />
+                                <p>Tailor made cleaning service for retail premises.</p>
+                                <!-- <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal"
+                                    type="button">
+                                    <i class="fas fa-xmark me-1"></i>
+                                    Request Free Quote
+                                </button> -->
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-        <!-- Portfolio item 5 modal popup-->
-        <div class="portfolio-modal modal fade" id="portfolioModal5" tabindex="-1" role="dialog" aria-hidden="true">
-            <div class="modal-dialog">
-                <div class="modal-content">
-                    <div class="close-modal" data-bs-dismiss="modal"><img src="assets/img/close-icon.svg" alt="Close modal" /></div>
-                    <div class="container">
-                        <div class="row justify-content-center">
-                            <div class="col-lg-8">
-                                <div class="modal-body">
-                                    <!-- Project details-->
-                                    <h2>Warehouse & Industrial</h2>
-                                    <p class="item-intro text-muted">Warehouse & Industrial</p>
-                                    <img class="img-fluid d-block mx-auto" src="assets/img/commercial/warehouse.jpg" alt="..." />
-                                    <p>Tailor made cleaning service for warehouse and industrial premises.</p>
-                                    <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal" type="button">
-                                        <i class="fas fa-xmark me-1"></i>
-                                        Request Free Quote
-                                    </button>
-                                </div>
+    </div>
+    <!-- Portfolio item 5 modal popup-->
+    <div class="portfolio-modal modal fade" id="portfolioModal5" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="close-modal" data-bs-dismiss="modal"><img src="assets/img/close-icon.svg"
+                        alt="Close modal" /></div>
+                <div class="container">
+                    <div class="row justify-content-center">
+                        <div class="col-lg-8">
+                            <div class="modal-body">
+                                <!-- Project details-->
+                                <h2>Warehouse & Industrial</h2>
+                                <p class="item-intro text-muted">Warehouse & Industrial</p>
+                                <img class="img-fluid d-block mx-auto" src="assets/img/commercial/warehouse.jpg"
+                                    alt="..." />
+                                <p>Tailor made cleaning service for warehouse and industrial premises.</p>
+                                <!-- <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal"
+                                    type="button">
+                                    <i class="fas fa-xmark me-1">Close</i>
+                                    Request Free Quote
+                                </button> -->
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-        <!-- Portfolio item 6 modal popup-->
-        <div class="portfolio-modal modal fade" id="portfolioModal6" tabindex="-1" role="dialog" aria-hidden="true">
-            <div class="modal-dialog">
-                <div class="modal-content">
-                    <div class="close-modal" data-bs-dismiss="modal"><img src="assets/img/close-icon.svg" alt="Close modal" /></div>
-                    <div class="container">
-                        <div class="row justify-content-center">
-                            <div class="col-lg-8">
-                                <div class="modal-body">
-                                    <!-- Project details-->
-                                    <h2>Post Construction</h2>
-                                    <p class="item-intro text-muted">Post Construction</p>
-                                    <img class="img-fluid d-block mx-auto" src="assets/img/commercial/post-construction.jpg" alt="..." />
-                                    <p>Specialised cleaning  service for construction or renovation sites.</p>
-                                    <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal" type="button">
-                                        <i class="fas fa-xmark me-1"></i>
-                                        Request Free Quote
-                                    </button>
-                                </div>
+    </div>
+    <!-- Portfolio item 6 modal popup-->
+    <div class="portfolio-modal modal fade" id="portfolioModal6" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="close-modal" data-bs-dismiss="modal"><img src="assets/img/close-icon.svg"
+                        alt="Close modal" /></div>
+                <div class="container">
+                    <div class="row justify-content-center">
+                        <div class="col-lg-8">
+                            <div class="modal-body">
+                                <!-- Project details-->
+                                <h2>Post Construction</h2>
+                                <p class="item-intro text-muted">Post Construction</p>
+                                <img class="img-fluid d-block mx-auto" src="assets/img/commercial/post-construction.jpg"
+                                    alt="..." />
+                                <p>Specialised cleaning service for construction or renovation sites.</p>
+                                <!-- <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal"
+                                    type="button">
+                                    <i class="fas fa-xmark me-1"></i>
+                                    Close
+                                </button> -->
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
+    </div>
 
 
-        <section class="page-section" id="contact">
-            <div class="container">
-                <div class="text-center">
-                    <h2 class="section-heading text-uppercase">Request A Free Quote</h2>
-                    <!-- <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3> -->
-                </div>
-                <!-- * * * * * * * * * * * * * * *-->
-                <!-- * * SB Forms Contact Form * *-->
-                <!-- * * * * * * * * * * * * * * *-->
-                <!-- This form is pre-integrated with SB Forms.-->
-                <!-- To make this form functional, sign up at-->
-                <!-- https://startbootstrap.com/solution/contact-forms-->
-                <!-- to get an API token!-->
-                <form id="contactForm" data-sb-form-api-token="API_TOKEN">
-                    <div class="row align-items-stretch mb-5">
-                        <div class="col-md-6">
-                            <div class="form-group">
-                                <!-- Name input-->
-                                <label for="validation" class="form-label">Name</label>
-                                <input class="form-control" id="name" type="text" placeholder="Your Name *" data-sb-validations="required" />
-                                <div class="invalid-feedback" data-sb-feedback="name:required">A name is required.</div>
-                            </div>
-                            <div class="form-group">
-                                <!-- Email address input-->
-                                <label for="validation" class="form-label">Email</label>
-                                <input class="form-control" id="email" type="email" placeholder="Your Email *" data-sb-validations="required,email" />
-                                <div class="invalid-feedback" data-sb-feedback="email:required">An email is required.</div>
-                                <div class="invalid-feedback" data-sb-feedback="email:email">Email is not valid.</div>
-                            </div>
-                            <div class="form-group">
-                                <!-- Phone number input-->
-                                <label for="validation" class="form-label">Phone Number</label>
-                                <input class="form-control" id="phone" type="tel" placeholder="Your Phone *" data-sb-validations="required" />
-                                <div class="invalid-feedback" data-sb-feedback="phone:required">A phone number is required.</div>
-                            </div>
-                            <div class="form-group">
-                                <!-- Property Type input-->
-                                <label class="form-label" for="property-type">Property Type</label>
-                                <select class="form-select form-control">
-                                    <option>Choose...</option>
-                                    <option>Apartment Blocks</option>
-                                    <option>Retail</option>
-                                    <option>Office</option>
-                                    <option>Warehouse</option>
-                                    <option>Restuarant & Kitchen</option>
-                                    <option>Other</option>
-                                  </select>
-                                <!-- <div class="invalid-feedback" data-sb-feedback="name:required">A name is required.</div> -->
-                                
-                            </div>
-                            <div class="form-group">
-                                <label class="form-label"  for="property-size">Property Size</label>
-                                <select class="form-select form-control">
-                                     <option>Choose...</option>
-                                    <option>0-50 square meters</option>
-                                    <option>50-85 square meters</option>
-                                    <option>85-100 square meters</option>
-                                    <option>100-200 square meters</option>
-                                    <option>+/-300 square meters</option>
-                                    <option>+/-500 square meters</option>
-                                    <option>I'm not sure</option>
-                                  </select>
-                              </div>
-                              <div class="form-group">
-                                <label class="form-label"  for="province">Province</label>
-                                <select class="form-select form-control">
-                                  <option>Choose...</option>
-                                  <option>Easter Cape</option>
-                                  <option>free State</option>
-                                  <option>Gauteng</option>
-                                  <option>Kwazulu-Natala</option>
-                                  <option>Limpopo</option>
-                                  <option>Mpumalanga</option>
-                                  <option>Northern Cape</option>
-                                  <option>North West</option>
-                                  <option>Western Cape</option>
-                                </select>
-                              </div>
-                        </div>
-                        <div class="col-md-6 textarea">
-                            <label class="form-label"  for="property-size">Additional Information</label>
-                            <div class="form-group form-group-textarea mb-md-0">
-                                <!-- Message input-->
-                                <textarea class="form-control" id="message" placeholder="Your Message *" data-sb-validations="required"></textarea>
-                                <div class="invalid-feedback" data-sb-feedback="message:required">A message is required.</div>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- Submit success message-->
-                    <!---->
-                    <!-- This is what your users will see when the form-->
-                    <!-- has successfully submitted-->
-                    <div class="d-none" id="submitSuccessMessage">
-                        <div class="text-center text-white mb-3">
-                            <div class="fw-bolder">Form submission successful!</div>
-                            To activate this form, sign up at
-                            <br />
-                            <a href="https://startbootstrap.com/solution/contact-forms">https://startbootstrap.com/solution/contact-forms</a>
-                        </div>
-                    </div>
-                    <!-- Submit error message-->
-                    <!---->
-                    <!-- This is what your users will see when there is-->
-                    <!-- an error submitting the form-->
-                    <div class="d-none" id="submitErrorMessage"><div class="text-center text-danger mb-3">Error sending message!</div></div>
-                    <!-- Submit Button-->
-                    <div class="text-center"><button class="btn btn-primary btn-xl text-uppercase disabled" id="submitButton" type="submit">Send Message</button></div>
-                </form>
+    <section class="page-section" id="motivation">
+        <div class="container">
+            <div class="text-center">
+                <h2 class="section-heading">
+                    Let us help you take care of the cleaning, so you can have more time to focus on the things that
+                    matter to you.
+                </h2>
             </div>
-        </section>
+        </div>
+    </section>
+
+
+    <section class="page-section" id="contact">
+        <div class="container">
+            <div class="text-center">
+                <h2 class="section-heading text-uppercase">Request A Free Quote</h2>
+                <!-- <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3> -->
+            </div>
+            <!-- * * * * * * * * * * * * * * *-->
+            <!-- * * SB Forms Contact Form * *-->
+            <!-- * * * * * * * * * * * * * * *-->
+            <!-- This form is pre-integrated with SB Forms.-->
+            <!-- To make this form functional, sign up at-->
+            <!-- https://startbootstrap.com/solution/contact-forms-->
+            <!-- to get an API token!-->
+            <form class="needs-validation" novalidate id="contactForm" data-sb-form-api-token="API_TOKEN">
+                <div class="row align-items-stretch mb-5">
+                    <div class="col-md-6">
+                        <div class="form-group">
+                            <!-- Name input-->
+                            <label for="validation" class="form-label">First Name</label>
+                            <input class="form-control" id="name" type="text" placeholder="First Name" required />
+                            <!-- <div class="valid-feedback" ></div> -->
+                            <div class="invalid-feedback">Please enter a name</div>
+                        </div>
+
+                        <div class="form-group">
+                            <!-- Email address input-->
+                            <label for="validation" class="form-label">Email Address</label>
+                            <input class="form-control" id="name" type="email" placeholder="Email Address" required />
+                            <!-- <div class="valid-feedback" ></div> -->
+                            <div class="invalid-feedback">Please enter a valid email</div>
+                        </div>
+                        <div class="form-group">
+                            <!-- Phone number input-->
+                            <label for="validation" class="form-label">Mobile Number</label>
+                            <input class="form-control" id="phone" type="tel" placeholder="e.g. 072-111-1111"
+                                pattern="^\d{3}-\d{3}-\d{4}$" required />
+                            <!-- <div class="invalid-feedback"></div> -->
+                            <div class="invalid-feedback">Please enter a valid phone number (remember to enter '-' as in
+                                example)</div>
+                        </div>
+                        <div class="form-group">
+                            <!-- Property Type input-->
+                            <label class="form-label" for="property-type">Property Type</label>
+                            <select id="property-type" class="form-select" required>
+                                <option selected disabled value="">Choose...</option>
+                                <option>Office</option>
+                                <option>Sectional Title</option>
+                                <option>Restuarant & Kitchen</option>
+                                <option>Retail & Commercial</option>
+                                <option>Warehouse & Industrial</option>
+                                <option>Post Construction</option>
+                                <option>Other</option>
+                            </select>
+                            <div class="invalid-feedback" required>Please select an option</div>
+
+                        </div>
+                        <div class="form-group">
+                            <label class="form-label" for="property-size">Property Size</label>
+                            <select class="form-select" required>
+                                <option selected disabled value="">Choose...</option>
+                                <option>0-50 square meters</option>
+                                <option>50-85 square meters</option>
+                                <option>85-100 square meters</option>
+                                <option>100-200 square meters</option>
+                                <option>+/-300 square meters</option>
+                                <option>+/-500 square meters</option>
+                                <option>I'm not sure</option>
+                            </select>
+                            <div class="invalid-feedback" required>Please select an option</div>
+                        </div>
+                        <div class="form-group">
+                            <label class="form-label" for="province">Province</label>
+                            <select class="form-select" required>
+                                <option selected disabled value="">Choose...</option>
+                                <option>Easter Cape</option>
+                                <option>free State</option>
+                                <option>Gauteng</option>
+                                <option>Kwazulu-Natala</option>
+                                <option>Limpopo</option>
+                                <option>Mpumalanga</option>
+                                <option>Northern Cape</option>
+                                <option>North West</option>
+                                <option>Western Cape</option>
+                            </select>
+                            <div class="invalid-feedback" required>Please select an option</div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 textarea">
+                        <label class="form-label" for="property-size">Additional Information</label>
+                        <div class="form-group form-group-textarea mb-md-0">
+                            <!-- Message input-->
+                            <textarea class="form-control" id="message"
+                                placeholder="Anything you'd like us to know, e..g. best times to contact you, urgency, or leave it as is and we'll be in touch soon."></textarea>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12">
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="invalidCheck" required>
+                        <label class="form-check-label" for="invalidCheck">
+                            Agree to terms and conditions
+                        </label>
+                        <div class="invalid-feedback">
+                            Please agree before submitting.
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Submit success message-->
+                <!---->
+                <!-- This is what your users will see when the form-->
+                <!-- has successfully submitted-->
+                <div class="d-none" id="submitSuccessMessage">
+                    <div class="text-center text-white mb-3">
+                        <div class="fw-bolder">Form submission successful!</div>
+                        To activate this form, sign up at
+                        <br />
+                        <a
+                            href="https://startbootstrap.com/solution/contact-forms">https://startbootstrap.com/solution/contact-forms</a>
+                    </div>
+                </div>
+                <!-- Submit error message-->
+                <!---->
+                <!-- This is what your users will see when there is-->
+                <!-- an error submitting the form-->
+                <div class="d-none" id="submitErrorMessage">
+                    <div class="text-center text-danger mb-3">Error sending message!</div>
+                </div>
+                <!-- Submit Button-->
+                <div class="text-center"><button class="btn btn-primary btn-xl text-uppercase" id="submitButton"
+                        type="submit">Send Message</button></div>
+            </form>
+        </div>
+
+        <script>
+            // Example starter JavaScript for disabling form submissions if there are invalid fields
+            (function () {
+                'use strict'
+
+                // Fetch all the forms we want to apply custom Bootstrap validation styles to
+                var forms = document.querySelectorAll('.needs-validation')
+
+                // Loop over them and prevent submission
+                Array.prototype.slice.call(forms)
+                    .forEach(function (form) {
+                        form.addEventListener('submit', function (event) {
+                            if (!form.checkValidity()) {
+                                event.preventDefault()
+                                event.stopPropagation()
+                            }
+
+                            form.classList.add('was-validated')
+                        }, false)
+                    })
+            })()
+        </script>
+    </section>
 
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
         crossorigin="anonymous"></script>
-        <script src="js/script.js"></script>
+    <script src="js/script.js"></script>
 </body>
 
 </html>
