@@ -445,6 +445,15 @@ section.our-clients .row {
   padding-bottom: 50px;
 }
 
+.propert-type-quote-btn {
+  color: #fff;
+  background-color: #f80;
+}
+.propert-type-quote-btn:hover {
+  color: #f80;
+  background-color: #fff;
+}
+
 section.why-us {
   background-color: #fff;
   padding: 30px 100px;
@@ -540,6 +549,88 @@ section.why-us .alternate-div {
 }
 
 /* End Residential Page */
+
+
+
+
+
+
+/* Property Type Page */
+.property-type-navbar{
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.2) 0%, rgba(0, 0, 0, 0.2) 100%);
+}
+
+/* Style the form */
+h1.tell-us-more-heading {
+  text-align: center;
+}
+#regForm {
+  background-color: #ffffff;
+  margin: 100px auto;
+  padding: 40px;
+  width: 70%;
+  min-width: 300px;
+}
+
+/* Style the input fields */
+input {
+  padding: 10px;
+  width: 100%;
+  font-size: 17px;
+  font-family: Raleway;
+  border: 1px solid #aaaaaa;
+  
+}
+
+/* Mark input boxes that gets an error on validation: */
+input.invalid {
+  background-color: #ffdddd;
+}
+
+/* Hide all steps by default: */
+.tab {
+  display: none;
+}
+
+/* Make circles that indicate the steps of the form: */
+.step {
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbbbbb;
+  border: none;
+  border-radius: 50%;
+  display: inline-block;
+  opacity: 0.5;
+}
+
+/* Mark the active step: */
+.step.active {
+  opacity: 1;
+}
+
+/* Mark the steps that are finished and valid: */
+.step.finish {
+  background-color: #04AA6D;
+}
+
+/* .tell-us-more-section {
+
+  padding-top: 10.5rem;
+  padding-bottom: 6rem;
+  text-align: center;
+}
+
+.tell-us-more-container {
+  background-color: rgb(247, 248, 252);
+  border-radius: 8px;
+  width: 80%;
+  height: 100vh;
+  margin: auto;
+  line-height: 200px;
+  height: 200px;
+  text-align: center;
+} */
 
 
 
