@@ -53,34 +53,129 @@
     <h1 class="tell-us-more-heading">Tell us a little more</h1>
     
     <!-- One "tab" for each step in the form: -->
-    <div class="tab">Property Type
-      <p><input class="input" placeholder="Free Standing Home" oninput="this.className = ''"></p>
-      <p><input class="input" placeholder="Apartment" oninput="this.className = ''"></p>
-      <p><input class="input" placeholder="Other." oninput="this.className = ''"></p>
+    <div class="tab"><h5>Property Type</h5>
+      <div class="row">
+        <div class="form-check col-lg-6">
+          <input class="form-check-input" type="radio" name="radioTab1" id="flexRadio1" value="free standing">
+          <label class="form-check-label" for="flexRadio1">
+            Free Standing Home
+          </label>
+        </div>
+        <div class="form-check col-lg-6">
+          <input class="form-check-input" type="radio" name="radioTab1" id="flexRadio2" value="apartment">
+          <label class="form-check-label" for="flexRadio2">
+            Apartment
+          </label>
+        </div>
+        <div class="form-check col-lg-6">
+          <input class="form-check-input" type="radio" name="radioTab1" id="flexRadio3" value="other">
+          <label class="form-check-label" for="flexRadio3">
+            Other
+          </label>
+        </div>
+      </div>
+      
+      <!-- <p><input class="input" placeholder="Free Standing Home" oninput="this.className = ''"></p>
+      <p><input class="input" placeholder="Apartment" oninput="this.className = ''"></p> -->
+      <!-- <p><input class="input" placeholder="Other." oninput="this.className = ''"></p> -->
     </div>
 
-    <div class="tab">Number of Bedrooms
-      <p><input class="input" placeholder="1 Bedroom" oninput="this.className = ''"></p>
+    <div class="tab"><h5>Number of Bedrooms</h5>
+      <!-- <p><input class="input" placeholder="1 Bedroom" oninput="this.className = ''"></p>
       <p><input class="input" placeholder="2 Bedroom" oninput="this.className = ''"></p>
       <p><input class="input" placeholder="3 Bedroom" oninput="this.className = ''"></p>
-      <p><input class="input" placeholder="4 Bedroom" oninput="this.className = ''"></p>
+      <p><input class="input" placeholder="4 Bedroom" oninput="this.className = ''"></p> -->
+
+      <div class="row">
+        <div class="form-check col-lg-6 input">
+          <input class="form-check-input" type="radio" name="radioTab2" id="flexRadio4" value="1 bedroom">
+          <label class="form-check-label" for="flexRadio4">
+            1 Bedroom
+          </label>
+        </div>
+        <div class="form-check col-lg-6 input">
+          <input class="form-check-input" type="radio" name="radioTab2" id="flexRadio5" value="2 bedrooms">
+          <label class="form-check-label" for="flexRadio5">
+            2 Bedrooms
+          </label>
+        </div>
+        <div class="form-check col-lg-6 input">
+          <input class="form-check-input" type="radio" name="radioTab2" id="flexRadio6" value="3 bedrooms">
+          <label class="form-check-label" for="flexRadio6">
+            3 Bedrooms
+          </label>
+        </div>
+        <div class="form-check col-lg-6 input">
+          <input class="form-check-input" type="radio" name="radioTab2" id="flexRadio7" value="4+ bedrooms">
+          <label class="form-check-label" for="flexRadio7">
+            4+ Bedrooms
+          </label>
+        </div>
+      </div>
+
     </div>
     
-    <div class="tab">Property Size
-      <p><input class="input" placeholder="0-50 square meters" oninput="this.className = ''"></p>
+    
+    <div class="tab"><h5>Property Size</h5>
+      <div class="row">
+        <div class="form-check col-lg-6 input">
+          <input class="form-check-input" type="radio" name="radioTab3" id="flexRadio8" value="0-50sqm">
+          <label class="form-check-label" for="flexRadio8">
+            0-50 square meters
+          </label>
+        </div>
+        <div class="form-check col-lg-6 input">
+          <input class="form-check-input" type="radio" name="radioTab3" id="flexRadio9" value="51-100sqm">
+          <label class="form-check-label" for="flexRadio9">
+            51-85 square meters
+          </label>
+        </div>
+        <div class="form-check col-lg-6 input">
+          <input class="form-check-input" type="radio" name="radioTab3" id="flexRadio10" value="86-100sqm">
+          <label class="form-check-label" for="flexRadio10">
+            86-100 square meters
+          </label>
+        </div>
+        <div class="form-check col-lg-6 input">
+          <input class="form-check-input" type="radio" name="radioTab3" id="flexRadio11" value="101-200sqm">
+          <label class="form-check-label" for="flexRadio11">
+            101-200 square meters
+          </label>
+        </div>
+        <div class="form-check col-lg-6 input">
+          <input class="form-check-input" type="radio" name="radioTab3" id="flexRadio12" value="+/- 300sqm">
+          <label class="form-check-label" for="flexRadio12">
+            +/- 300 square meters
+          </label>
+        </div>
+        <div class="form-check col-lg-6 input">
+          <input class="form-check-input" type="radio" name="radioTab3" id="flexRadio13" value="+/- 500sqm">
+          <label class="form-check-label" for="flexRadio13">
+            +/-500 square meters
+          </label>
+        </div>
+        <div class="form-check col-lg-6 input">
+          <input class="form-check-input" type="radio" name="radioTab3" id="flexRadio14" value="Don't know">
+          <label class="form-check-label" for="flexRadio14">
+            I'm not sure
+          </label>
+        </div>
+      </div>
+      <!-- <p><input class="input" placeholder="0-50 square meters" oninput="this.className = ''"></p>
       <p><input class="input" placeholder="51-85 square meters" oninput="this.className = ''"></p>
       <p><input class="input" placeholder="86-100 square meters" oninput="this.className = ''"></p>
       <p><input class="input" placeholder="101-200 square meters" oninput="this.className = ''"></p>
       <p><input class="input" placeholder="+/- 300 square meters" oninput="this.className = ''"></p>
       <p><input class="input" placeholder="+/-500 square meters" oninput="this.className = ''"></p>
-      <p><input class="input" placeholder="I'm not sure" oninput="this.className = ''"></p>
+      <p><input class="input" placeholder="I'm not sure" oninput="this.className = ''"></p> -->
     </div>
     
-    <div class="tab">Contact Details
-      <p>Name<input class="input" placeholder="Name" oninput="this.className = ''"></p>
-      <p>Email<input class="input" placeholder="email" oninput="this.className = ''"></p>
-      <p>Phone<input class="input" placeholder="Phone" oninput="this.className = ''"></p>
-      <p>Address<input class="input" placeholder="Address" oninput="this.className = ''"></p>
+    <div class="tab"><h5>Contact Details</h5>
+      
+      <p>Name<input class="input" placeholder="Name"></p>
+      <p>Email<input class="input" placeholder="email"></p>
+      <p>Phone<input class="input" placeholder="Phone"></p>
+      <p>Address<input class="input" placeholder="Address"></p>
     </div>
     
     <div style="overflow:auto;">
@@ -89,6 +184,13 @@
         <button type="button" id="nextBtn" onclick="nextPrev(1)">Next</button>
       </div>
     </div>
+
+    <p>
+      <button id="selection-btn">Show Selected Value</button>
+  </p>
+
+  <p id="output"></p>
+  <p id="output1"></p>
     
     <!-- Circles which indicates the steps of the form: -->
     <div style="text-align:center;margin-top:40px;">
@@ -122,6 +224,23 @@
     </div>
 
   </section> -->
+
+  <footer class="footer py-4 bg-dark">
+    <div class="container">
+        <div class="row align-items-center">
+            <div class="col-lg-4 text-lg-start text-light">Copyright &copy; Your Website 2022</div>
+            <div class="col-lg-4 my-3 my-lg-0">
+                <!-- <a class="btn btn-dark btn-social mx-2" href="#!" aria-label="Twitter"><i class="fab fa-twitter"></i></a> -->
+                <a class="btn btn-dark btn-social mx-2" href="https://www.facebook.com/bcleanxpress" aria-label="Facebook" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                <a class="btn btn-dark btn-social mx-2" href="https://www.instagram.com/bcleanxpress/" aria-label="LinkedIn" target="_blank"><i class="fab fa-instagram"></i></a>
+            </div>
+            <div class="col-lg-4 text-lg-end ">
+                <a class="link-light text-decoration-none me-3" href="#!">Privacy Policy</a>
+                <a class="link-light text-decoration-none" href="#!">Terms of Use</a>
+            </div>
+        </div>
+    </div>
+</footer>
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"

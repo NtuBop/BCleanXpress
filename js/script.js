@@ -116,6 +116,13 @@ function fixStepIndicator(n) {
   x[n].className += " active";
 }
 
+// Validation for the radio buttons
+
+
+
+
+
+
 
 //RIPPLE BUTTON JS
 
