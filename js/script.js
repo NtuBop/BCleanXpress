@@ -116,6 +116,19 @@ function fixStepIndicator(n) {
   x[n].className += " active";
 }
 
+// Validation for the radio buttons
+function radioValidation() {
+  var flexRadioDefault = document.forms[0];
+  var txt = "";
+  var i;
+  for (i = 0; i < flexRadioDefault.length; i++) {
+    if (flexRadioDefault[i].checked) {
+      txt = txt + flexRadioDefault[i].value + " ";
+    }
+  }
+   "You ordered a coffee with: " + txt;
+}
+
 
 //RIPPLE BUTTON JS
 
