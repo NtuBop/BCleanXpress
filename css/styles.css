@@ -581,10 +581,25 @@ input {
   border: 1px solid #aaaaaa;
   
 }
+/* .input {
+  padding: 10px;
+  width: 100%;
+  font-size: 17px;
+  font-family: Raleway;
+  border: 1px solid #aaaaaa;
+} */
+
+#flexRadioDefault1 {
+  margin-left: 10px;
+  color: red;
+}
+
+
 
 /* Mark input boxes that gets an error on validation: */
 input.invalid {
-  background-color: #ffdddd;
+  background-color: #f80;
+  /* background: linear-gradient(to bottom, rgba(0, 0, 0, 0.2) 0%, rgba(0, 0, 0, 0.2) 100%); */
 }
 
 /* Hide all steps by default: */
