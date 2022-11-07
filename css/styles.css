@@ -102,6 +102,10 @@ body {
   color: #fff;
 }
 
+#mainNav .navbar-toggler .nav-item .nav-link  {
+  color: #fff;
+}
+
 #mainNav .navbar-brand {
   color: #f80;
   font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
@@ -117,13 +121,13 @@ body {
 #mainNav .navbar-nav .nav-item .nav-link {
   font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   font-size: 0.95rem;
-  color: #f80;
+  color: #fff;
   letter-spacing: 0.0625em;
 }
 
 #mainNav .navbar-nav .nav-item .nav-link.active,
 #mainNav .navbar-nav .nav-item .nav-link:hover {
-  color: #fff;
+  color: #f80;
 }
 
 #mainNav.navbar-shrink {
@@ -155,11 +159,11 @@ body {
     padding-top: 1rem;
     padding-bottom: 1rem;
     /* background-color: red; */
-
   }
 
   #mainNav.navbar-shrink .navbar-brand {
     font-size: 1.25em;
+    
   }
 
   #mainNav .navbar-nav .nav-item {
@@ -169,6 +173,7 @@ body {
   #mainNav .navbar-nav .nav-item:last-child {
     margin-right: 0;
   }
+  
 }
 
 /* End Navbar */
@@ -434,7 +439,8 @@ section.testimonials .fa-quote-right .testimonial {
   font-size: 20px;
   margin-top: 15px;
   font-family: sans-serif;
-
+  /* letter-spacing: 0.5px; */
+  /* text-transform:lowercase; */
 }
 
 section.our-clients .clients-heading {
