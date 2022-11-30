@@ -354,8 +354,8 @@
             <!-- to get an API token!-->
             <form class="needs-validation" novalidate id="contactForm" data-sb-form-api-token="API_TOKEN">
                 <div class="row align-items-stretch mb-5">
-                    <div class="col-md-6">
-                        <div class="form-group">
+                    
+                        <div class="col-md-6 form-group">
                             <!-- Name input-->
                             <label for="validation" class="form-label">First Name</label>
                             <input class="form-control" id="name" type="text" placeholder="First Name" required />
@@ -363,14 +363,14 @@
                             <div class="invalid-feedback">Please enter a name</div>
                         </div>
 
-                        <div class="form-group">
+                        <div class="col-md-6 form-group">
                             <!-- Email address input-->
                             <label for="validation" class="form-label">Email Address</label>
                             <input class="form-control" id="name" type="email" placeholder="Email Address" required />
                             <!-- <div class="valid-feedback" ></div> -->
                             <div class="invalid-feedback">Please enter a valid email</div>
                         </div>
-                        <div class="form-group">
+                        <div class="col-md-6 form-group">
                             <!-- Phone number input-->
                             <label for="validation" class="form-label">Mobile Number</label>
                             <input class="form-control" id="phone" type="tel" placeholder="e.g. 072-111-1111"
@@ -379,7 +379,7 @@
                             <div class="invalid-feedback">Please enter a valid phone number (remember to enter '-' as in
                                 example)</div>
                         </div>
-                        <div class="form-group">
+                        <div class="col-md-6 form-group">
                             <!-- Property Type input-->
                             <label class="form-label" for="property-type">Property Type</label>
                             <select id="property-type" class="form-select" required>
@@ -395,7 +395,7 @@
                             <div class="invalid-feedback" required>Please select an option</div>
 
                         </div>
-                        <div class="form-group">
+                        <div class="col-md-6 form-group">
                             <label class="form-label" for="property-size">Property Size</label>
                             <select class="form-select" required>
                                 <option selected disabled value="">Choose...</option>
@@ -409,7 +409,7 @@
                             </select>
                             <div class="invalid-feedback" required>Please select an option</div>
                         </div>
-                        <div class="form-group">
+                        <div class="col-md-6 form-group">
                             <label class="form-label" for="province">Province</label>
                             <select class="form-select" required>
                                 <option selected disabled value="">Choose...</option>
@@ -426,7 +426,7 @@
                             <div class="invalid-feedback" required>Please select an option</div>
                         </div>
                     </div>
-                    <div class="col-md-6 textarea">
+                    <div class="col-md-12 textarea">
                         <label class="form-label" for="property-size">Additional Information</label>
                         <div class="form-group form-group-textarea mb-md-0">
                             <!-- Message input-->
@@ -435,7 +435,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-12">
+                <div class="col-md-12 tsAndcs">
                     <div class="form-check">
                         <input class="form-check-input" type="checkbox" value="" id="invalidCheck" required>
                         <label class="form-check-label" for="invalidCheck">
