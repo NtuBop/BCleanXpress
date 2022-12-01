@@ -854,6 +854,21 @@ section#contact form#contactForm .form-control:focus {
   box-shadow: none;
 }
 
+#submitButton {
+  background-color: #f80;
+  color: #fff;
+  border: none;
+}
+#submitButton:hover {
+  color: #f80;
+  background-color: #fff;
+}
+
+.propert-type-quote-btn:hover {
+  color: #f80;
+  background-color: #fff;
+}
+
 
 
 /* section#contact form#contactForm ::-webkit-input-placeholder {
