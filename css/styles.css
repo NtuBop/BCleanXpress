@@ -402,7 +402,7 @@ section.guarantee .res-description i {
   border-radius: 50px;
 }
 
-section.testimonials {
+/* section.testimonials {
   background-color: #f8f8f8;
 }
 
@@ -430,8 +430,17 @@ section.testimonials .fa-quote-right .testimonial {
   font-size: 20px;
   margin-top: 15px;
   font-family: sans-serif;
-  /* letter-spacing: 0.5px; */
-  /* text-transform:lowercase; */
+} */
+
+.gallery-heading, .gallery-heading-text {
+  text-align: center;
+  color: #F80;
+  /* padding: 20px 0; */
+}
+
+.gallery-heading {
+  padding-top: 20px;
+  font-size: 3rem;
 }
 
 .individual-cards {
