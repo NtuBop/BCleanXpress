@@ -1,5 +1,3 @@
-@charset "UTF-8";
-
 :root {
   --bs-blue: #0d6efd;
   --bs-indigo: #6610f2;
@@ -102,6 +100,10 @@ body {
   color: #fff;
 }
 
+#mainNav .navbar-toggler .nav-item .nav-link  {
+  color: #fff;
+}
+
 #mainNav .navbar-brand {
   color: #f80;
   font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
@@ -117,13 +119,13 @@ body {
 #mainNav .navbar-nav .nav-item .nav-link {
   font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   font-size: 0.95rem;
-  color: #f80;
+  color: #fff;
   letter-spacing: 0.0625em;
 }
 
 #mainNav .navbar-nav .nav-item .nav-link.active,
 #mainNav .navbar-nav .nav-item .nav-link:hover {
-  color: #fff;
+  color: #f80;
 }
 
 #mainNav.navbar-shrink {
@@ -155,11 +157,11 @@ body {
     padding-top: 1rem;
     padding-bottom: 1rem;
     /* background-color: red; */
-
   }
 
   #mainNav.navbar-shrink .navbar-brand {
     font-size: 1.25em;
+    
   }
 
   #mainNav .navbar-nav .nav-item {
@@ -169,6 +171,7 @@ body {
   #mainNav .navbar-nav .nav-item:last-child {
     margin-right: 0;
   }
+  
 }
 
 /* End Navbar */
@@ -399,15 +402,8 @@ section.guarantee .res-description i {
   border-radius: 50px;
 }
 
-section.gallery-images .carousel .gallery-heading {
-  text-align: center;
-  padding: 2rem;
-}
-
-section.testimonials {
+/* section.testimonials {
   background-color: #f8f8f8;
-  
-  
 }
 
 section.testimonials .testimonials-heading {
@@ -430,11 +426,73 @@ section.testimonials .fa-quote-right {
 section.testimonials .fa-quote-right .testimonial {
   size: 5rem;
   color: #343a40;
-  background-color: #f8f8f8;
+  background-color: red;
   font-size: 20px;
   margin-top: 15px;
   font-family: sans-serif;
+} */
 
+.gallery-heading, .gallery-heading-text {
+  text-align: center;
+  color: #F80;
+  /* padding: 20px 0; */
+}
+
+.gallery-heading {
+  padding-top: 20px;
+  font-size: 3rem;
+}
+
+.individual-cards {
+  border: none;
+  border-radius: 8px;
+  box-shadow: 2px 6px 8px 0 rgba(22, 22, 26, 0.18);
+}
+.carousel-inner {
+  padding: 1em;
+}
+.carousel-control-prev, .carousel-control-next {
+  background-color: #e1e1e1;
+  width: 6vh;
+  height: 6vh;
+  border-radius: 50%;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.carousel-control-prev span, .carousel-control-next span {
+  width: 1.5em;
+  height: 1.5em;
+  color: #04AA6D;
+}
+@media screen and (min-width: 568px) {
+  .cards-wrapper {
+    display: flex;
+  }
+  
+  .individual-cards{
+    margin: 0.5rem;
+    width: calc(100%/3);
+  }
+}
+
+
+@media screen and (max-width: 567px) {
+  .individual-cards:not(:first-child) {
+    display: none;
+  }
+}
+
+.img-wrapper {
+  height: 22vh;
+  margin: auto;
+  /* display: flex;
+  align-items: center;
+  justify-content: center; */
+}
+
+.img-wrapper img {
+  max-width: 100%;
+  max-height: 100%;
 }
 
 section.our-clients .clients-heading {
@@ -822,6 +880,11 @@ section#contact form#contactForm .form-group input.form-control {
   height: auto;
 }
 
+.tsAndcs{
+  margin-top: 1rem;
+  margin-left: 5.5rem;
+}
+
 section#contact form#contactForm .form-group-textarea {
   height: 100%;
 }
@@ -845,7 +908,24 @@ section#contact form#contactForm .form-control:focus {
   box-shadow: none;
 }
 
-section#contact form#contactForm ::-webkit-input-placeholder {
+#submitButton {
+  background-color: #f80;
+  color: #fff;
+  border: none;
+}
+#submitButton:hover {
+  color: #f80;
+  background-color: #fff;
+}
+
+.propert-type-quote-btn:hover {
+  color: #f80;
+  background-color: #fff;
+}
+
+
+
+/* section#contact form#contactForm ::-webkit-input-placeholder {
   font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   color: #ced4da;
 }
@@ -866,7 +946,7 @@ section#contact form#contactForm :-ms-input-placeholder {
   font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   font-weight: 700;
   color: #fff;
-}
+} */
 
 .navbar-toggler {
   color: #F80;
