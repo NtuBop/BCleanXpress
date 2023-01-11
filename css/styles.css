@@ -789,6 +789,12 @@ header.masthead-commercial a:hover {
   font-family: "Roboto Slab", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
 
+.commercial-service-img {
+  width: 634px;
+  height: 250px;
+  
+}
+
 .service-modal .modal-dialog {
   margin: 1rem;
   max-width: 100vw;
